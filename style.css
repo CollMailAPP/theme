@@ -53,7 +53,7 @@ h3 {
 
 article {
   margin-top: 12rem;
-  width: 700px;
+  max-width: 700px;
 }
 
 article p, article ul, article h2, article h3 {
