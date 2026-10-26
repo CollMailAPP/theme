@@ -30,8 +30,6 @@ body.home {
 
 body:not(.home) main {
   flex: 1;   
-  margin: 3rem 0;
-  max-width: 42rem;
 }
 
 .logo {
