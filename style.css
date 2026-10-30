@@ -26,6 +26,10 @@ body.home {
   justify-content: space-between;
 }
 
+header {
+  display: flex;
+}
+
 .logo {
   display: block;
   width: 60px;
