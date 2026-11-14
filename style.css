@@ -5,6 +5,8 @@
 }
 
 body {
+  font: 300 1.5rem/1.3 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #001a9e;
   min-height: 100vh;
   background: #eef5ff;
   padding: 16px;
@@ -15,25 +17,14 @@ body {
 
 /* --------------------------------------------------------------------------------------- */
 
-h1, h2, h3, p, a, ul{
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  font-weight: 300;
-  color: #001a9e;
+h1, h2, h3 {
+  font-weight: inherit;
+  line-height: 1;
+}
+
+a {
+  color: inherit; 
   text-decoration: none;
-}
-
-h1 {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-h2 {
-  font-size: 4rem;
-  line-height: 1;
-}
-
-h3 {
-  font-size: 2rem;
 }
 
 a:hover {
@@ -66,7 +57,7 @@ footer {
 }
 
 .logo {
-  height: 6rem;
+  height: 4rem;
 }
 
 .mini {
