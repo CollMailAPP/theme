@@ -42,6 +42,11 @@ article {
   gap: 32px;
 }
 
+article h1 {
+  font-size: 6rem;
+  margin-bottom: 4rem;
+}
+
 footer {
   margin-top: auto;
 }
